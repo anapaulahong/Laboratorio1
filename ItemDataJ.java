@@ -41,7 +41,9 @@ public class ItemDataJ{
         }
         }
 
-    public static void Main(String[] args){
-        
-    }
+    public static void main(String[] args){
+        ItemDataJ stringData = new ItemDataJ("holi");
+        ItemDataJ integerData = new ItemDataJ(7);
+        ItemDataJ booleanData = new ItemDataJ(true);
+        }
 }
